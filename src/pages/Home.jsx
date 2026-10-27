@@ -317,7 +317,7 @@ export const Home = () => {
 					<div className="br-closet br-rise" style={{ "--d": "1s" }}>
 						<div className="br-closet-head">
 							<small>N° 01 — Closet virtual</small>
-							<h2>Elige tu <i>prenda</i></h2>
+							<h2>Elige tu <i>Outfit</i></h2>
 						</div>
 
 						<div className="br-rack">
@@ -357,7 +357,7 @@ export const Home = () => {
 
 						<div className="br-drawer">
 							<i className="br-drawer-knob" />
-							<span>toca una prenda ✦</span>
+							<span>Selecciona ✦</span>
 							<i className="br-drawer-knob" />
 						</div>
 					</div>
