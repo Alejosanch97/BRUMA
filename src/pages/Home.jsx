@@ -261,7 +261,7 @@ export const Home = () => {
 					<div className="br-door r"><i className="br-knob" /></div>
 					<div className="br-doors-logo">
 						<Logo />
-						<small>Abriendo el closet…</small>
+						<small>Now open ✦</small>
 					</div>
 				</div>
 			)}
@@ -291,7 +291,10 @@ export const Home = () => {
 						<text x="60" y="68" className="br-sticker-star">✦</text>
 					</svg>
 
-					<p className="br-kicker br-rise" style={{ "--d": ".3s" }}>Moda femenina · <i>colección actual</i></p>
+					<p className="br-kicker br-rise" style={{ "--d": ".3s" }}>
+						<span>Moda femenina</span>
+						<i>colección actual</i>
+					</p>
 
 					{LOGO_URL ? (
 						<Logo className="br-hero-img br-rise" />
